@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "泰国教育局与中国教育合作调研会议"
+date:   
+categories: [泰国, 中国]
+tags: []
+---
+
+
+### 泰语原文
+สำนักงานเลขาธิการสภาการศึกษาร่วมสร้างเครือข่ายความร่วมมือทางการศึกษาระหว่างไทยกับจีน ณ มหานครฉงชิ่ง โดยมีการประชุมหารือและเยี่ยมเยือนหน่วยงานการศึกษาของนครฉงชิ่งเพื่อแลกเปลี่ยนองค์ความรู้และประสบการณ์การศึกษา.
+
+### 拉丁转写
+Sǎmnākngān lekāthikān s̄ạphā kānsưksa rûam sāng khreūa kāi khwām rûam‑meūa thāng kān sueksa rā‑wāng Thai kap Jin na Mahanakhon Chongqing dōi mī kān prachum hārua læ yiam yʉān nūai ngān kān sueksa khōng Chongqing phư̄a læk‑plian ōngkǒ khwām rū læ prasōbkan kān sueksa.
+
+### 英语翻译
+The Office of the Education Council (OEC) helped create an educational cooperation network between Thailand and China in Chongqing. Meetings and visits were held with educational authorities in Chongqing to exchange knowledge and experiences in education.
+
+### 汉语新闻
+泰国教育委员会办公室（OEC）在中国重庆推动泰中教育合作网络建设。双方举行会议与访问，交流教育经验与政策，为两国教育合作奠定实质性基础。
