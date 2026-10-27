@@ -1,0 +1,56 @@
+# Thai Atlas 数据包（2026-10-27）
+
+本数据包供完整网站集成；已下载原始公开文件，保留原始哈希，并生成浏览器可读取的 JSON。词库数据的派生版本按 CC BY-SA 4.0 提供；程序代码可独立选择许可证。
+
+## 真实规模
+
+- 5,111 个不同泰文词头。细分：4,793 单词、231 构式、63 专名、24 表达。变体未额外计数。
+- 7,535 个义项，15,944 条原创泰英例句，24,554 条搭配，10,156 条关系记录，11,105 条词族记录。
+- 英文释义、Paiboon+ 拉丁转写、例句覆盖全部词头。
+- 中文释义覆盖 1,103 词，IPA 覆盖 4,053 词，音素拼写覆盖 4,051 词；这些是 Wiktionary 精确词头匹配结果。
+- 带教材主题分类的词头为 1,507 个。其余应展示为未分类/扩展词库，不应伪装已有人工主题分类。
+- 声调对比集 428 组、1,142 词。syllables 字段按转写中的声调符号机械解析，不是自动推导泰文声调拼写规则。
+
+## 文件
+
+- `processed/words.json`：全部 5,111 词的检索/卡片字段。
+- `processed/details.json`：按稳定 id 索引的全部义项、例句、搭配、关系、词族。
+- `processed/details/NNN.json`：同一详情的分块版本。分块号 = 稳定 id 中整数除以 200 的向下取整，补足三位；例如 tl-00235 -> 001.json。
+- `processed/stats.json`：机器核验条数和覆盖率。
+- `processed/levels.json`：来源分档说明。
+- `build_dataset.py`：从原始文件构建 JSON，可复现。
+- 原始 ThaiReader 文件 `list.tsv`、`senses.tsv`、`examples.tsv` 等及 `SHA256SUMS` 已全部校验。
+- 原始 Wiktionary 抽取为 `kaikki.org-dictionary-Thai.jsonl`、`zh-trad.jsonl` 和 `zh-simp.jsonl`。
+
+## 来源与必须保留的署名
+
+主词库：Thai learner word list, release v39, by ThaiReader，2026-10-25，CC BY-SA 4.0。
+
+- 来源与下载：https://thaireader.app/words/downloads
+- 原始发行说明：https://thaireader.app/learner/v39/README.md
+- 许可：https://creativecommons.org/licenses/by-sa/4.0/
+
+Wiktionary IPA 与中文释义：Wiktionary contributors，通过 Kaikki/Wiktextract 抽取。文本依 Wiktionary 的 CC BY-SA/GFDL 条款提供；本组合数据选择 CC BY-SA 4.0 路径。每个词条的 `sourceURLs` 保留原页面链接。
+
+- 英文版泰语词典：https://kaikki.org/dictionary/Thai/index.html
+- 中文版目录：https://kaikki.org/zhwiktionary/index.html
+- Wiktionary 原页面：https://en.wiktionary.org/ 与 https://zh.wiktionary.org/
+
+ThaiReader 要求保留的上游归属：
+
+- OPUS OpenSubtitles v2024 的统计，不含字幕文本。参考：P. Lison and J. Tiedemann (2016), OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles, LREC 2016；https://www.opensubtitles.org/。
+- Thai National Corpus / Thai Textbook Corpus lists via PyThaiNLP，CC0。
+- VOLUBILIS Mundo Multilingual Thai Dictionary & Database by Belisan，CC BY-SA 4.0，https://belisan-volubilis.blogspot.com/。
+- English Wiktionary via Kaikki/Wiktextract。
+- LEXiTRON developed by NECTEC，需保留原文："This product is created by the adaptation of LEXiTRON developed by NECTEC (http://www.nectec.or.th/)."
+- Wikidata，CC0。
+
+## 品质边界
+
+1. ThaiReader 说明释义、例句、搭配与编辑判断由作者借助 Claude 创建；尚未做逐词人工编辑复核。网站不得称其为“全人工审校”或“权威教材词库”。
+2. 五档 bucket 是来源的课程/频率学习档位（580、716、1057、900、1858 词），不是经测量认证的 CEFR A1-C2 等级。可以译为入门、初级一、初级二、中级一、中级二，并在说明页保留来源对应。
+3. 中文是独立字典释义，未逐义对齐英文；繁简字形按来源保留。缺失处为 []，不得显示虚构译文或“全部中文完成”。
+4. en 字段概括所有义项，有些常用词带成人/粗俗义。学习主卡片可展示 details[id].senses[0].gloss；详细义项需保留 tags，不能把整个常用词因某一义项的粗俗标签剔除。
+5. IPA 可能有历史、连读、词缀形态等多种来源读法。保留数组及来源，而不是保证每个都是当前独立词标准读法。
+6. 音频仅 91 个词有源链接，对应 90 个独立文件；90 文件的作者与许可已通过 Commons API 核验并记录于 audio-licenses.json。20 文件已缓存，其余下载触发 HTTP 429 后停止、未重试。浏览器 TTS 与开放录音须明确区分。
+7. 所有例句来自开放来源，不是教材原文。若要与《基础泰语》等教材逐课对应，需要使用者提供有权使用的课文、词表与录音。

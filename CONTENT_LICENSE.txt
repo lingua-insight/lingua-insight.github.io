@@ -1,0 +1,10 @@
+# Thai Atlas content licensing
+
+- Application code and UI adapted from Word Atlas contributors, MIT; see LICENSE.txt.
+- Brand illustrations in brand/: Word Atlas contributors — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ ; reused, some filenames renamed. Upstream https://github.com/designfuchen/word-atlas . Upstream sound assets retain their original provenance.
+- Thai lexical dataset: Thai learner word list, release v39, by ThaiReader, https://thaireader.app/words/downloads . Derived lexical text is distributed under CC BY-SA 4.0. Wiktionary-derived Chinese glosses and IPA retain their CC BY-SA/GFDL attribution. See DATA-SOURCES.txt and per-entry source links.
+- Public/atlas/audio recordings retain each individual Commons license, author and sourceURL in the word entry and data/source/audio-licenses.json.
+- New teaching content in content/ is AI-assisted; see its manifest.
+- Fraunces and Noto Sans Thai fonts: SIL Open Font License 1.1; see FONT_LICENSES.txt.
+
+This product is created by the adaptation of LEXiTRON developed by NECTEC (http://www.nectec.or.th/).

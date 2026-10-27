@@ -1,0 +1,1066 @@
+{
+  "title": "泰语拼读室",
+  "version": "1.0",
+  "updated": "2026-10-27",
+  "quality": "规则根据公开教学资料交叉核查；本中文编排由AI辅助编写，未经过泰语母语教师逐条审校。",
+  "notation": {
+    "consonantRoman": "辅音名称采用便于索引的 RTGS 式拉丁写法，不标声调和元音长短；实际音值看 IPA。",
+    "ipa": "IPA 中 ː 表长元音，ʰ 表送气，◌̚ 表不除阻塞音；词例用 à 低、â 降、á 高、ǎ 升，不加调号表示中调。",
+    "level": "L1–L3仅为本站编排等级，不对应官方CEFR认证。"
+  },
+  "intro": [
+    "44个辅音字母分为9个中辅音、11个高辅音、24个低辅音；类别用于判断声调，不是字母本身永远读某一声调。",
+    "泰语主要把词组或句子用空格分开，词内通常不留空格；音节判断不能只靠空格。",
+    "先确定实际音节、声母类别、韵尾及元音长短，再看调号。前置元音符号也要读在声母之后。"
+  ],
+  "consonants": [
+    {
+      "id": "c01",
+      "char": "ก",
+      "name": "ไก่",
+      "fullName": "ก ไก่",
+      "roman": "ko kai",
+      "class": "中",
+      "initial": "k",
+      "final": "k̚",
+      "zh": "鸡",
+      "obsolete": false
+    },
+    {
+      "id": "c02",
+      "char": "ข",
+      "name": "ไข่",
+      "fullName": "ข ไข่",
+      "roman": "kho khai",
+      "class": "高",
+      "initial": "kʰ",
+      "final": "k̚",
+      "zh": "蛋",
+      "obsolete": false
+    },
+    {
+      "id": "c03",
+      "char": "ฃ",
+      "name": "ขวด",
+      "fullName": "ฃ ขวด",
+      "roman": "kho khuat",
+      "class": "高",
+      "initial": "kʰ",
+      "final": "—",
+      "zh": "瓶子（旧字母）",
+      "obsolete": true,
+      "note": "仍列在传统44辅音表中，现代普通拼写已不用；先以识别为主。"
+    },
+    {
+      "id": "c04",
+      "char": "ค",
+      "name": "ควาย",
+      "fullName": "ค ควาย",
+      "roman": "kho khwai",
+      "class": "低",
+      "initial": "kʰ",
+      "final": "k̚",
+      "zh": "水牛",
+      "obsolete": false
+    },
+    {
+      "id": "c05",
+      "char": "ฅ",
+      "name": "คน",
+      "fullName": "ฅ คน",
+      "roman": "kho khon",
+      "class": "低",
+      "initial": "kʰ",
+      "final": "—",
+      "zh": "人（旧字母）",
+      "obsolete": true,
+      "note": "仍列在传统44辅音表中，现代普通拼写已不用；先以识别为主。"
+    },
+    {
+      "id": "c06",
+      "char": "ฆ",
+      "name": "ระฆัง",
+      "fullName": "ฆ ระฆัง",
+      "roman": "kho rakhang",
+      "class": "低",
+      "initial": "kʰ",
+      "final": "k̚",
+      "zh": "钟",
+      "obsolete": false
+    },
+    {
+      "id": "c07",
+      "char": "ง",
+      "name": "งู",
+      "fullName": "ง งู",
+      "roman": "ngo ngu",
+      "class": "低",
+      "initial": "ŋ",
+      "final": "ŋ",
+      "zh": "蛇",
+      "obsolete": false
+    },
+    {
+      "id": "c08",
+      "char": "จ",
+      "name": "จาน",
+      "fullName": "จ จาน",
+      "roman": "cho chan",
+      "class": "中",
+      "initial": "tɕ",
+      "final": "t̚",
+      "zh": "盘子",
+      "obsolete": false
+    },
+    {
+      "id": "c09",
+      "char": "ฉ",
+      "name": "ฉิ่ง",
+      "fullName": "ฉ ฉิ่ง",
+      "roman": "cho ching",
+      "class": "高",
+      "initial": "tɕʰ",
+      "final": "—",
+      "zh": "小钹",
+      "obsolete": false
+    },
+    {
+      "id": "c10",
+      "char": "ช",
+      "name": "ช้าง",
+      "fullName": "ช ช้าง",
+      "roman": "cho chang",
+      "class": "低",
+      "initial": "tɕʰ",
+      "final": "t̚",
+      "zh": "象",
+      "obsolete": false
+    },
+    {
+      "id": "c11",
+      "char": "ซ",
+      "name": "โซ่",
+      "fullName": "ซ โซ่",
+      "roman": "so so",
+      "class": "低",
+      "initial": "s",
+      "final": "t̚",
+      "zh": "链条",
+      "obsolete": false
+    },
+    {
+      "id": "c12",
+      "char": "ฌ",
+      "name": "เฌอ",
+      "fullName": "ฌ เฌอ",
+      "roman": "cho choe",
+      "class": "低",
+      "initial": "tɕʰ",
+      "final": "—",
+      "zh": "树",
+      "obsolete": false
+    },
+    {
+      "id": "c13",
+      "char": "ญ",
+      "name": "หญิง",
+      "fullName": "ญ หญิง",
+      "roman": "yo ying",
+      "class": "低",
+      "initial": "j",
+      "final": "n",
+      "zh": "女子",
+      "obsolete": false
+    },
+    {
+      "id": "c14",
+      "char": "ฎ",
+      "name": "ชฎา",
+      "fullName": "ฎ ชฎา",
+      "roman": "do chada",
+      "class": "中",
+      "initial": "d",
+      "final": "t̚",
+      "zh": "传统尖顶冠",
+      "obsolete": false
+    },
+    {
+      "id": "c15",
+      "char": "ฏ",
+      "name": "ปฏัก",
+      "fullName": "ฏ ปฏัก",
+      "roman": "to patak",
+      "class": "中",
+      "initial": "t",
+      "final": "t̚",
+      "zh": "赶牲畜用的刺棒",
+      "obsolete": false
+    },
+    {
+      "id": "c16",
+      "char": "ฐ",
+      "name": "ฐาน",
+      "fullName": "ฐ ฐาน",
+      "roman": "tho than",
+      "class": "高",
+      "initial": "tʰ",
+      "final": "t̚",
+      "zh": "基座",
+      "obsolete": false
+    },
+    {
+      "id": "c17",
+      "char": "ฑ",
+      "name": "มณโฑ",
+      "fullName": "ฑ มณโฑ",
+      "roman": "tho montho",
+      "class": "低",
+      "initial": "tʰ（部分词读 d）",
+      "final": "t̚",
+      "zh": "蒙托（《拉玛坚》人物）",
+      "obsolete": false,
+      "note": "常见初始读音为 /tʰ/，部分词读 /d/，须查词典，不能按字母机械套读。"
+    },
+    {
+      "id": "c18",
+      "char": "ฒ",
+      "name": "ผู้เฒ่า",
+      "fullName": "ฒ ผู้เฒ่า",
+      "roman": "tho phu thao",
+      "class": "低",
+      "initial": "tʰ",
+      "final": "t̚",
+      "zh": "老人",
+      "obsolete": false
+    },
+    {
+      "id": "c19",
+      "char": "ณ",
+      "name": "เณร",
+      "fullName": "ณ เณร",
+      "roman": "no nen",
+      "class": "低",
+      "initial": "n",
+      "final": "n",
+      "zh": "沙弥",
+      "obsolete": false
+    },
+    {
+      "id": "c20",
+      "char": "ด",
+      "name": "เด็ก",
+      "fullName": "ด เด็ก",
+      "roman": "do dek",
+      "class": "中",
+      "initial": "d",
+      "final": "t̚",
+      "zh": "儿童",
+      "obsolete": false
+    },
+    {
+      "id": "c21",
+      "char": "ต",
+      "name": "เต่า",
+      "fullName": "ต เต่า",
+      "roman": "to tao",
+      "class": "中",
+      "initial": "t",
+      "final": "t̚",
+      "zh": "龟",
+      "obsolete": false
+    },
+    {
+      "id": "c22",
+      "char": "ถ",
+      "name": "ถุง",
+      "fullName": "ถ ถุง",
+      "roman": "tho thung",
+      "class": "高",
+      "initial": "tʰ",
+      "final": "t̚",
+      "zh": "袋子",
+      "obsolete": false
+    },
+    {
+      "id": "c23",
+      "char": "ท",
+      "name": "ทหาร",
+      "fullName": "ท ทหาร",
+      "roman": "tho thahan",
+      "class": "低",
+      "initial": "tʰ",
+      "final": "t̚",
+      "zh": "士兵",
+      "obsolete": false
+    },
+    {
+      "id": "c24",
+      "char": "ธ",
+      "name": "ธง",
+      "fullName": "ธ ธง",
+      "roman": "tho thong",
+      "class": "低",
+      "initial": "tʰ",
+      "final": "t̚",
+      "zh": "旗",
+      "obsolete": false
+    },
+    {
+      "id": "c25",
+      "char": "น",
+      "name": "หนู",
+      "fullName": "น หนู",
+      "roman": "no nu",
+      "class": "低",
+      "initial": "n",
+      "final": "n",
+      "zh": "老鼠",
+      "obsolete": false
+    },
+    {
+      "id": "c26",
+      "char": "บ",
+      "name": "ใบไม้",
+      "fullName": "บ ใบไม้",
+      "roman": "bo baimai",
+      "class": "中",
+      "initial": "b",
+      "final": "p̚",
+      "zh": "树叶",
+      "obsolete": false
+    },
+    {
+      "id": "c27",
+      "char": "ป",
+      "name": "ปลา",
+      "fullName": "ป ปลา",
+      "roman": "po pla",
+      "class": "中",
+      "initial": "p",
+      "final": "p̚",
+      "zh": "鱼",
+      "obsolete": false
+    },
+    {
+      "id": "c28",
+      "char": "ผ",
+      "name": "ผึ้ง",
+      "fullName": "ผ ผึ้ง",
+      "roman": "pho phueng",
+      "class": "高",
+      "initial": "pʰ",
+      "final": "—",
+      "zh": "蜜蜂",
+      "obsolete": false
+    },
+    {
+      "id": "c29",
+      "char": "ฝ",
+      "name": "ฝา",
+      "fullName": "ฝ ฝา",
+      "roman": "fo fa",
+      "class": "高",
+      "initial": "f",
+      "final": "—",
+      "zh": "盖子",
+      "obsolete": false
+    },
+    {
+      "id": "c30",
+      "char": "พ",
+      "name": "พาน",
+      "fullName": "พ พาน",
+      "roman": "pho phan",
+      "class": "低",
+      "initial": "pʰ",
+      "final": "p̚",
+      "zh": "高脚托盘",
+      "obsolete": false
+    },
+    {
+      "id": "c31",
+      "char": "ฟ",
+      "name": "ฟัน",
+      "fullName": "ฟ ฟัน",
+      "roman": "fo fan",
+      "class": "低",
+      "initial": "f",
+      "final": "p̚",
+      "zh": "牙齿",
+      "obsolete": false
+    },
+    {
+      "id": "c32",
+      "char": "ภ",
+      "name": "สำเภา",
+      "fullName": "ภ สำเภา",
+      "roman": "pho samphao",
+      "class": "低",
+      "initial": "pʰ",
+      "final": "p̚",
+      "zh": "帆船",
+      "obsolete": false
+    },
+    {
+      "id": "c33",
+      "char": "ม",
+      "name": "ม้า",
+      "fullName": "ม ม้า",
+      "roman": "mo ma",
+      "class": "低",
+      "initial": "m",
+      "final": "m",
+      "zh": "马",
+      "obsolete": false
+    },
+    {
+      "id": "c34",
+      "char": "ย",
+      "name": "ยักษ์",
+      "fullName": "ย ยักษ์",
+      "roman": "yo yak",
+      "class": "低",
+      "initial": "j",
+      "final": "j",
+      "zh": "夜叉；巨人",
+      "obsolete": false,
+      "note": "还可参与元音或复合韵母的拼写；此处列其辅音功能。"
+    },
+    {
+      "id": "c35",
+      "char": "ร",
+      "name": "เรือ",
+      "fullName": "ร เรือ",
+      "roman": "ro ruea",
+      "class": "低",
+      "initial": "r",
+      "final": "n",
+      "zh": "船",
+      "obsolete": false
+    },
+    {
+      "id": "c36",
+      "char": "ล",
+      "name": "ลิง",
+      "fullName": "ล ลิง",
+      "roman": "lo ling",
+      "class": "低",
+      "initial": "l",
+      "final": "n",
+      "zh": "猴",
+      "obsolete": false
+    },
+    {
+      "id": "c37",
+      "char": "ว",
+      "name": "แหวน",
+      "fullName": "ว แหวน",
+      "roman": "wo waen",
+      "class": "低",
+      "initial": "w",
+      "final": "w",
+      "zh": "戒指",
+      "obsolete": false,
+      "note": "还可参与元音或复合韵母的拼写；此处列其辅音功能。"
+    },
+    {
+      "id": "c38",
+      "char": "ศ",
+      "name": "ศาลา",
+      "fullName": "ศ ศาลา",
+      "roman": "so sala",
+      "class": "高",
+      "initial": "s",
+      "final": "t̚",
+      "zh": "亭子",
+      "obsolete": false
+    },
+    {
+      "id": "c39",
+      "char": "ษ",
+      "name": "ฤๅษี",
+      "fullName": "ษ ฤๅษี",
+      "roman": "so ruesi",
+      "class": "高",
+      "initial": "s",
+      "final": "t̚",
+      "zh": "隐士",
+      "obsolete": false
+    },
+    {
+      "id": "c40",
+      "char": "ส",
+      "name": "เสือ",
+      "fullName": "ส เสือ",
+      "roman": "so suea",
+      "class": "高",
+      "initial": "s",
+      "final": "t̚",
+      "zh": "虎",
+      "obsolete": false
+    },
+    {
+      "id": "c41",
+      "char": "ห",
+      "name": "หีบ",
+      "fullName": "ห หีบ",
+      "roman": "ho hip",
+      "class": "高",
+      "initial": "h",
+      "final": "—",
+      "zh": "箱子",
+      "obsolete": false,
+      "note": "作 ห นำ 时不单独发 /h/，而影响后面低单辅音音节的声调。"
+    },
+    {
+      "id": "c42",
+      "char": "ฬ",
+      "name": "จุฬา",
+      "fullName": "ฬ จุฬา",
+      "roman": "lo chula",
+      "class": "低",
+      "initial": "l",
+      "final": "n",
+      "zh": "一种传统风筝",
+      "obsolete": false
+    },
+    {
+      "id": "c43",
+      "char": "อ",
+      "name": "อ่าง",
+      "fullName": "อ อ่าง",
+      "roman": "o ang",
+      "class": "中",
+      "initial": "ʔ（元音承载字母）",
+      "final": "—",
+      "zh": "盆",
+      "obsolete": false,
+      "note": "常作元音的承载字母；也参与元音拼写。อย่า、อยู่、อย่าง、อยาก 的 อ 不单独发音。"
+    },
+    {
+      "id": "c44",
+      "char": "ฮ",
+      "name": "นกฮูก",
+      "fullName": "ฮ นกฮูก",
+      "roman": "ho nok huk",
+      "class": "低",
+      "initial": "h",
+      "final": "—",
+      "zh": "猫头鹰",
+      "obsolete": false
+    }
+  ],
+  "vowels": [
+    {
+      "id": "a-short",
+      "pattern": "-ะ / -ั-",
+      "ipa": "a",
+      "length": "短",
+      "example": "กะ",
+      "exampleIPA": "kàʔ",
+      "zh": "估量；估计",
+      "note": "有韵尾时常改写为 -ั-，如 กัน。"
+    },
+    {
+      "id": "a-long",
+      "pattern": "-า",
+      "ipa": "aː",
+      "length": "长",
+      "example": "กา",
+      "exampleIPA": "kaː",
+      "zh": "乌鸦",
+      "note": "与短 /a/ 区别在时长。"
+    },
+    {
+      "id": "i-short",
+      "pattern": "-ิ",
+      "ipa": "i",
+      "length": "短",
+      "example": "กิน",
+      "exampleIPA": "kin",
+      "zh": "吃",
+      "note": "上方元音；韵尾 น 使该音节为舒声。"
+    },
+    {
+      "id": "i-long",
+      "pattern": "-ี",
+      "ipa": "iː",
+      "length": "长",
+      "example": "ดี",
+      "exampleIPA": "diː",
+      "zh": "好",
+      "note": "不要把长短区别只理解成音量。"
+    },
+    {
+      "id": "ue-short",
+      "pattern": "-ึ",
+      "ipa": "ɯ",
+      "length": "短",
+      "example": "นึก",
+      "exampleIPA": "nɯ́k̚",
+      "zh": "想起",
+      "note": "高后不圆唇元音；嘴唇不撮圆。"
+    },
+    {
+      "id": "ue-long",
+      "pattern": "-ือ / -ื-",
+      "ipa": "ɯː",
+      "length": "长",
+      "example": "มือ",
+      "exampleIPA": "mɯː",
+      "zh": "手",
+      "note": "开音节常写 -ือ；有韵尾时如 คืน。"
+    },
+    {
+      "id": "u-short",
+      "pattern": "-ุ",
+      "ipa": "u",
+      "length": "短",
+      "example": "ขุด",
+      "exampleIPA": "kʰùt̚",
+      "zh": "挖",
+      "note": "下方元音。"
+    },
+    {
+      "id": "u-long",
+      "pattern": "-ู",
+      "ipa": "uː",
+      "length": "长",
+      "example": "ดู",
+      "exampleIPA": "duː",
+      "zh": "看",
+      "note": "注意与短 /u/ 对比。"
+    },
+    {
+      "id": "e-short",
+      "pattern": "เ-ะ / เ-็-",
+      "ipa": "e",
+      "length": "短",
+      "example": "เด็ก",
+      "exampleIPA": "dèk̚",
+      "zh": "儿童",
+      "note": "有韵尾时常写 เ-็-，并非所有词都显式标短。"
+    },
+    {
+      "id": "e-long",
+      "pattern": "เ-",
+      "ipa": "eː",
+      "length": "长",
+      "example": "เท",
+      "exampleIPA": "tʰeː",
+      "zh": "倒；倾倒",
+      "note": "元音符号写在辅音前，发音仍在辅音之后。"
+    },
+    {
+      "id": "ae-short",
+      "pattern": "แ-ะ / แ-็-",
+      "ipa": "ɛ",
+      "length": "短",
+      "example": "แพะ",
+      "exampleIPA": "pʰɛ́ʔ",
+      "zh": "山羊",
+      "note": "比 /e/ 开口更大；开音节短元音后有喉塞收尾。"
+    },
+    {
+      "id": "ae-long",
+      "pattern": "แ-",
+      "ipa": "ɛː",
+      "length": "长",
+      "example": "แพ",
+      "exampleIPA": "pʰɛː",
+      "zh": "筏",
+      "note": "口型保持稳定。"
+    },
+    {
+      "id": "o-short",
+      "pattern": "โ-ะ / 隐写",
+      "ipa": "o",
+      "length": "短",
+      "example": "นก",
+      "exampleIPA": "nók̚",
+      "zh": "鸟",
+      "note": "闭音节的短 /o/ 常不写元音符号，如 นก。"
+    },
+    {
+      "id": "o-long",
+      "pattern": "โ-",
+      "ipa": "oː",
+      "length": "长",
+      "example": "โต",
+      "exampleIPA": "toː",
+      "zh": "大；长大",
+      "note": "不要读成英语式滑动元音。"
+    },
+    {
+      "id": "aw-short",
+      "pattern": "เ-าะ / -็อ-",
+      "ipa": "ɔ",
+      "length": "短",
+      "example": "เกาะ",
+      "exampleIPA": "kɔ̀ʔ",
+      "zh": "岛",
+      "note": "后、圆唇、开口较大的元音。"
+    },
+    {
+      "id": "aw-long",
+      "pattern": "-อ",
+      "ipa": "ɔː",
+      "length": "长",
+      "example": "รอ",
+      "exampleIPA": "rɔː",
+      "zh": "等待",
+      "note": "อ 在此属于元音拼写的一部分。"
+    },
+    {
+      "id": "oe-short",
+      "pattern": "เ-อะ",
+      "ipa": "ɤ",
+      "length": "短",
+      "example": "เยอะ",
+      "exampleIPA": "jɤ́ʔ",
+      "zh": "多",
+      "note": "中后不圆唇元音；开音节短音收喉。"
+    },
+    {
+      "id": "oe-long",
+      "pattern": "เ-อ / เ-ิ-",
+      "ipa": "ɤː",
+      "length": "长",
+      "example": "เธอ",
+      "exampleIPA": "tʰɤː",
+      "zh": "你；她",
+      "note": "有韵尾时常见 เ-ิ-，如 เดิน；另有特定拼写。"
+    },
+    {
+      "id": "ia-long",
+      "pattern": "เ-ีย",
+      "ipa": "ia",
+      "length": "长复合",
+      "example": "เสีย",
+      "exampleIPA": "sǐa",
+      "zh": "失去；坏了",
+      "note": "/i/ 向 /a/ 过渡；传统长复合元音。"
+    },
+    {
+      "id": "uea-long",
+      "pattern": "เ-ือ",
+      "ipa": "ɯa",
+      "length": "长复合",
+      "example": "เรือ",
+      "exampleIPA": "rɯa",
+      "zh": "船",
+      "note": "从不圆唇的 /ɯ/ 向 /a/ 过渡。"
+    },
+    {
+      "id": "ua-long",
+      "pattern": "-ัว / -ว-",
+      "ipa": "ua",
+      "length": "长复合",
+      "example": "ตัว",
+      "exampleIPA": "tua",
+      "zh": "身体；个（量词）",
+      "note": "有韵尾时常省 -ั，如 สวน。"
+    },
+    {
+      "id": "ia-short",
+      "pattern": "เ-ียะ",
+      "ipa": "iaʔ",
+      "length": "短复合",
+      "example": "เกี๊ยะ",
+      "exampleIPA": "kíaʔ",
+      "zh": "木屐",
+      "note": "低频短复合形式；末尾喉塞。借词须结合词典。"
+    },
+    {
+      "id": "uea-short",
+      "pattern": "เ-ือะ",
+      "ipa": "ɯaʔ",
+      "length": "短复合",
+      "example": "",
+      "exampleIPA": "",
+      "zh": "练读拼式",
+      "note": "很少用于日常词，不把练读拼式当作独立词汇。"
+    },
+    {
+      "id": "ua-short",
+      "pattern": "-ัวะ",
+      "ipa": "uaʔ",
+      "length": "短复合",
+      "example": "ผัวะ",
+      "exampleIPA": "pʰùaʔ",
+      "zh": "拍击声",
+      "note": "常见于拟声词；短促并收喉。"
+    },
+    {
+      "id": "am",
+      "pattern": "-ำ",
+      "ipa": "am",
+      "length": "含韵尾",
+      "example": "จำ",
+      "exampleIPA": "tɕam",
+      "zh": "记住",
+      "note": "含 /m/ 韵尾，按舒声处理；个别词实际元音时长需另学。"
+    },
+    {
+      "id": "ai-maimalai",
+      "pattern": "ไ-",
+      "ipa": "aj",
+      "length": "含韵尾",
+      "example": "ไป",
+      "exampleIPA": "paj",
+      "zh": "去",
+      "note": "含 /j/ 韵尾，按舒声处理。"
+    },
+    {
+      "id": "ai-maimuan",
+      "pattern": "ใ-",
+      "ipa": "aj",
+      "length": "含韵尾",
+      "example": "ใจ",
+      "exampleIPA": "tɕaj",
+      "zh": "心",
+      "note": "通常与 ไ- 同音，拼写须随词记忆。"
+    },
+    {
+      "id": "ao",
+      "pattern": "เ-า",
+      "ipa": "aw",
+      "length": "含韵尾",
+      "example": "เรา",
+      "exampleIPA": "raw",
+      "zh": "我们",
+      "note": "含 /w/ 韵尾，按舒声处理。"
+    }
+  ],
+  "tones": [
+    {
+      "id": "mid",
+      "zh": "中调",
+      "th": "เสียงสามัญ",
+      "mark": "a",
+      "example": "มา",
+      "ipa": "maː",
+      "meaning": "来",
+      "hint": "在自然音域中大致平稳；不必模仿汉语第一声的高音高。"
+    },
+    {
+      "id": "low",
+      "zh": "低调",
+      "th": "เสียงเอก",
+      "mark": "à",
+      "example": "ป่า",
+      "ipa": "pàː",
+      "meaning": "森林",
+      "hint": "音域较低；避免压嗓。"
+    },
+    {
+      "id": "falling",
+      "zh": "降调",
+      "th": "เสียงโท",
+      "mark": "â",
+      "example": "บ้าน",
+      "ipa": "bâːn",
+      "meaning": "家",
+      "hint": "由较高处下降，注意保持元音长度。"
+    },
+    {
+      "id": "high",
+      "zh": "高调",
+      "th": "เสียงตรี",
+      "mark": "á",
+      "example": "ม้า",
+      "ipa": "máː",
+      "meaning": "马",
+      "hint": "音域较高，现代口语常有上扬；不等同于汉语第二声。"
+    },
+    {
+      "id": "rising",
+      "zh": "升调",
+      "th": "เสียงจัตวา",
+      "mark": "ǎ",
+      "example": "หมา",
+      "ipa": "mǎː",
+      "meaning": "狗",
+      "hint": "低起再上升；实际曲线会受语速与语境影响。"
+    }
+  ],
+  "syllables": [
+    {
+      "type": "舒声（คำเป็น）",
+      "description": "以长元音结束，或实际读音以 /m n ŋ j w/ 结束。ำ、ไ、ใ、เ-า 含韵尾，按舒声处理。",
+      "examples": [
+        "มา",
+        "กิน",
+        "ลม",
+        "ไป",
+        "เรา"
+      ]
+    },
+    {
+      "type": "促声（คำตาย）",
+      "description": "以 /p̚ t̚ k̚/ 结束，或短元音开音节以 /ʔ/ 收尾。判断依据是实际韵尾，不是字母名称。",
+      "examples": [
+        "จบ",
+        "กัด",
+        "รัก",
+        "กะ",
+        "เกาะ"
+      ]
+    }
+  ],
+  "toneRules": [
+    {
+      "class": "中",
+      "noMarkLive": "中调",
+      "noMarkDeadShort": "低调",
+      "noMarkDeadLong": "低调",
+      "maiEk": "低调",
+      "maiTho": "降调",
+      "maiTri": "高调",
+      "maiChattawa": "升调"
+    },
+    {
+      "class": "高",
+      "noMarkLive": "升调",
+      "noMarkDeadShort": "低调",
+      "noMarkDeadLong": "低调",
+      "maiEk": "低调",
+      "maiTho": "降调",
+      "maiTri": "常规拼写不用",
+      "maiChattawa": "常规拼写不用"
+    },
+    {
+      "class": "低",
+      "noMarkLive": "中调",
+      "noMarkDeadShort": "高调",
+      "noMarkDeadLong": "降调",
+      "maiEk": "降调",
+      "maiTho": "高调",
+      "maiTri": "常规拼写不用",
+      "maiChattawa": "常规拼写不用"
+    }
+  ],
+  "toneMarks": [
+    {
+      "char": "่",
+      "name": "ไม้เอก",
+      "roman": "mai ek"
+    },
+    {
+      "char": "้",
+      "name": "ไม้โท",
+      "roman": "mai tho"
+    },
+    {
+      "char": "๊",
+      "name": "ไม้ตรี",
+      "roman": "mai tri"
+    },
+    {
+      "char": "๋",
+      "name": "ไม้จัตวา",
+      "roman": "mai chattawa"
+    }
+  ],
+  "workedExamples": [
+    {
+      "word": "กิน",
+      "ipa": "kin",
+      "zh": "吃",
+      "steps": [
+        "ก 是中辅音",
+        "/n/ 韵尾使其成为舒声",
+        "没有调号",
+        "中辅音＋舒声＋无调号 → 中调"
+      ]
+    },
+    {
+      "word": "รัก",
+      "ipa": "rák̚",
+      "zh": "爱",
+      "steps": [
+        "ร 是低辅音",
+        "短 /a/ ＋ /k̚/ → 短元音促声",
+        "没有调号",
+        "低辅音＋短元音促声＋无调号 → 高调"
+      ]
+    },
+    {
+      "word": "มาก",
+      "ipa": "mâːk̚",
+      "zh": "多；非常",
+      "steps": [
+        "ม 是低辅音",
+        "长 /aː/ ＋ /k̚/ → 长元音促声",
+        "没有调号",
+        "低辅音＋长元音促声＋无调号 → 降调"
+      ]
+    },
+    {
+      "word": "ไข่",
+      "ipa": "kʰàj",
+      "zh": "蛋",
+      "steps": [
+        "ข 是高辅音",
+        "有调号 ่（ไม้เอก）",
+        "高辅音＋่ → 低调"
+      ]
+    },
+    {
+      "word": "หน้า",
+      "ipa": "nâː",
+      "zh": "脸；前面",
+      "steps": [
+        "ห 为不发音的引导字母",
+        "使低单辅音 น 的音节按高辅音规则判断",
+        "调号为 ้",
+        "高辅音规则＋้ → 降调"
+      ]
+    }
+  ],
+  "scopeNotes": [
+    "此表用于标准泰语的常规拼读；音节切分错误会导致声调判断错误。",
+    "ห นำ 会影响后面的低单辅音；อย่า、อยู่、อย่าง、อยาก 需学习 อ นำ 特殊规则。",
+    "真正的声母辅音连缀通常按第一个辅音的类别判断；假复辅音、引导辅音、隐含元音需分开学习。",
+    "梵巴借词、外来词、固有专名及少数特殊拼写应查词典或听可靠录音；不要将规则表当成无例外自动读音器。",
+    "ฤ、ฤๅ、ฦ、ฦๅ 是另列的特殊元音字形，不计入44辅音；ฤ 常依词读 /rɯ/、/ri/ 或 /rɤː/。",
+    "长短元音不是快慢播放按钮能够改变的同一件事；慢速音频只降低语速，不能替代音位长短的对比。"
+  ],
+  "sources": [
+    {
+      "title": "Northern Illinois University SEAsite: Consonants Table",
+      "url": "https://seasite.niu.edu/Thai/basic/alpha_cons_table.htm",
+      "usedFor": "字母名称与发音参考；部分子表有遗漏，以其他教学机构资料交叉核对"
+    },
+    {
+      "title": "DLTV: ไตรยางศ์（辅音三类）",
+      "url": "https://dltv.ac.th/teachplan/episode/59571",
+      "usedFor": "中辅音与高辅音的完整分组"
+    },
+    {
+      "title": "Buriram Rajabhat University: เสียงวรรณยุกต์และไตรยางศ์",
+      "url": "https://blog.bru.ac.th/wp-content/uploads/2026/07/เสียงวรรณยุกต์และไตรยางศ์.pdf",
+      "usedFor": "44辅音类别与调类体系"
+    },
+    {
+      "title": "Northern Illinois University SEAsite: Tone chart",
+      "url": "https://seasite.niu.edu/thai/selfassessment/module1/tone_chart.htm",
+      "usedFor": "五声调、四调号及与辅音类别的关系"
+    },
+    {
+      "title": "Northern Illinois University SEAsite: Maanii Lesson 11 structure",
+      "url": "https://seasite.niu.edu/thai/maanii1/lesson11/structure.htm",
+      "usedFor": "舒声与促声、塞音韵尾"
+    },
+    {
+      "title": "Chulalongkorn University Radio: ระบบเสียงภาษาไทย",
+      "url": "https://curadio.chula.ac.th/Images/Class-Onair/th/2011/th-2011-06-16.pdf",
+      "usedFor": "音节组成；ำ、ไ、ใ、เ-า含韵尾的性质"
+    },
+    {
+      "title": "MIT OpenCourseWare: Thai Vowels",
+      "url": "https://ocw.mit.edu/courses/24-901-language-and-its-structure-i-phonology-fall-2010/df4a8d1c16dc9493069231e9b2775e78_MIT24_901F10_assn08.pdf",
+      "usedFor": "九类单元音音质的教学参考"
+    }
+  ]
+}

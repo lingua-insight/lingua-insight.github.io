@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "authorship": "Original learning content prepared for this Thai learning Site with AI assistance.",
+  "license": "CC BY-SA 4.0",
+  "quality": "No native-speaker editorial review has been completed. Levels are internal sequencing labels, not CEFR certifications.",
+  "files": {
+    "phonetics.json": {
+      "consonants": 44,
+      "vowels": 28,
+      "tones": 5
+    },
+    "readings.json": {
+      "readings": 12,
+      "sentences": 96
+    },
+    "confusions.json": {
+      "groups": 26
+    }
+  },
+  "sources": [
+    {
+      "title": "Northern Illinois University SEAsite: Consonants Table",
+      "url": "https://seasite.niu.edu/Thai/basic/alpha_cons_table.htm",
+      "usedFor": "字母名称与发音参考；部分子表有遗漏，以其他教学机构资料交叉核对"
+    },
+    {
+      "title": "DLTV: ไตรยางศ์（辅音三类）",
+      "url": "https://dltv.ac.th/teachplan/episode/59571",
+      "usedFor": "中辅音与高辅音的完整分组"
+    },
+    {
+      "title": "Buriram Rajabhat University: เสียงวรรณยุกต์และไตรยางศ์",
+      "url": "https://blog.bru.ac.th/wp-content/uploads/2026/07/เสียงวรรณยุกต์และไตรยางศ์.pdf",
+      "usedFor": "44辅音类别与调类体系"
+    },
+    {
+      "title": "Northern Illinois University SEAsite: Tone chart",
+      "url": "https://seasite.niu.edu/thai/selfassessment/module1/tone_chart.htm",
+      "usedFor": "五声调、四调号及与辅音类别的关系"
+    },
+    {
+      "title": "Northern Illinois University SEAsite: Maanii Lesson 11 structure",
+      "url": "https://seasite.niu.edu/thai/maanii1/lesson11/structure.htm",
+      "usedFor": "舒声与促声、塞音韵尾"
+    },
+    {
+      "title": "Chulalongkorn University Radio: ระบบเสียงภาษาไทย",
+      "url": "https://curadio.chula.ac.th/Images/Class-Onair/th/2011/th-2011-06-16.pdf",
+      "usedFor": "音节组成；ำ、ไ、ใ、เ-า含韵尾的性质"
+    },
+    {
+      "title": "MIT OpenCourseWare: Thai Vowels",
+      "url": "https://ocw.mit.edu/courses/24-901-language-and-its-structure-i-phonology-fall-2010/df4a8d1c16dc9493069231e9b2775e78_MIT24_901F10_assn08.pdf",
+      "usedFor": "九类单元音音质的教学参考"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "words": 5111,
+  "examples": 15944,
+  "chinese": 1103,
+  "ipa": 4053,
+  "audioWords": 20,
+  "levels": {
+    "L1": 580,
+    "L2": 716,
+    "L3": 1057,
+    "L4": 900,
+    "L5": 1858
+  },
+  "topics": {
+    "people": 152,
+    "general": 3604,
+    "grammar": 233,
+    "daily": 242,
+    "study": 55,
+    "place": 202,
+    "food": 104,
+    "time": 231,
+    "nature": 70,
+    "society": 95,
+    "health": 77,
+    "culture": 46
+  },
+  "senses": 7535,
+  "collocations": 24554,
+  "source": "ThaiReader v39 + Wiktionary",
+  "retrieved": "2026-10-27",
+  "license": "CC BY-SA 4.0"
+}
